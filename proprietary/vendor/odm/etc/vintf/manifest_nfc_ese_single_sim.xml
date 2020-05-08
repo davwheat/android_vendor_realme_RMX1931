@@ -27,7 +27,7 @@
         <fqname>@1.0::ISecureElement/eSE1</fqname>
     </hal>
     <!-- NFC HAL service -->
-    <!--hal format="hidl">
+    <hal format="hidl">
         <name>android.hardware.nfc</name>
         <transport>hwbinder</transport>
         <version>1.2</version>
@@ -35,7 +35,7 @@
             <name>INfc</name>
             <instance>default</instance>
         </interface>
-    </hal-->
+    </hal>
     <hal format="hidl">
         <name>vendor.nxp.hardware.nfc</name>
         <transport>hwbinder</transport>
@@ -46,7 +46,7 @@
         </interface>
     </hal>
     <!--eSE Powermanager-->
-    <!--hal format="hidl">
+    <hal format="hidl">
         <name>vendor.qti.esepowermanager</name>
         <transport>hwbinder</transport>
         <version>1.0</version>
@@ -54,5 +54,5 @@
             <name>IEsePowerManager</name>
             <instance>default</instance>
         </interface>
-    </hal-->
+    </hal>
 </manifest>
